@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            width: 755px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .pilun{
+            width: 100%;
+            padding: 25px 20px 20px;
+            box-sizing: border-box;
+            background-color: #F3F8FD;
+        }
+        #txt{
+            width: 100%;
+            height: 80px;
+            resize: none;
+        }
+        .tijiao{
+            width: 122px;
+            height: 32px;
+            float: right;
+            background: url("img/takeSbmComment.png") no-repeat;
+            border: none;
+            outline: none;
+            vertical-align: middle;
+        }
+        .ti{
+            width: 100%;
+            height: 56px;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .ti span{
+            display: block;
+            float: right;
+            padding-top: 10px;
+        }
+        .content{
+            width: 100%;
+            height: 548px;
+            border: 1px solid #0099FF;
+            box-sizing: border-box;
+            margin-top: 28px;
+            background:  #F3F8FD;
+        }
+        .tiao{
+            width: 100%;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            height: 80px;
+            font-size: 14px;
+            background: white;
+        }
+        .xia{
+           width: 100%;
+            font-size: 12px;
+            padding-top: 15px;
+        }
+        .xlar{
+            display: block;
+            float: right;
+        }
+        .xlar a{
+            display: inline-block;
+            width: 45px;
+            height: 20px;
+            text-indent: 20px;
+        }
+        .xlar a:first-child{
+            background: url("../xiaojiaweishi4-25/img/icons.png") no-repeat;
+        }
+        .xlar a:nth-child(2){
+            background-image: url("../xiaojiaweishi4-25/img/icons.png");
+            background-repeat:  no-repeat;
+            background-position: 0px -14px;
+        }
+        .xlar a:nth-child(3){
+            background-image: url("../xiaojiaweishi4-25/img/icons.png");
+            background-repeat:  no-repeat;
+            background-position: 0px -33px;
+        }
+        .ccc{
+            height: 500px;
+            width: 100%;
+        }
+        #bt{
+            width: 95%;
+            height: 30px;
+            text-align: right;
+        }
+        #bt a{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 1px solid salmon;
+            margin-right: 5px;
+            line-height: 30px;
+            text-align: center;
+        }
+        #bt a.active{
+            background: chartreuse;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="pilun">
+        <textarea id="txt"></textarea>
+        <div class="ti">
+            <input type="button" id="btn1" class="tijiao"/>
+            <span>(可以按enter键)</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="ccc" id="tio">
+            <!--<div class="tiao">-->
+                <!--<p>卫士，新款卫士将推出总共14种车身式样。其中， XS旅行款车型</p>-->
+                <!--<div class="xia">-->
+                    <!--<span>2017-02-6 16:37:60</span>-->
+                    <!--<p class="xlar">-->
+                        <!--<a href="javascript:;">0</a>-->
+                        <!--<a href="javascript:;">0</a>-->
+                        <!--<a href="javascript:;">删除</a>-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+        <div id="bt">
+            <!--<a href="javascript:;">1</a>-->
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="ajax.js"></script>
+<script type="text/javascript" src="min.js"></script>
+</html>
